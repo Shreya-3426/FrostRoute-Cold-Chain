@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FrostRoute Cold Chain | Temperature-Controlled Logistics</title>
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="#home"><img src="images/logo.svg" alt="FrostRoute logo" width="34" height="34">FrostRoute</a>
+  <nav>
+    <a href="#about">About</a><a href="#services">Services</a><a href="#dashboard">Dashboard</a><a href="#track">Track shipment</a><a href="#contact">Contact</a><a href="#references">References</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="wrap">
+    <p class="temp">2–8°C</p>
+    <h1>FrostRoute Cold Chain</h1>
+    <p class="lead">Vaccines, medicines and fresh food reach the customer at the right temperature, with proof.</p>
+    <p>We run refrigerated trucks, cold storage and live temperature monitoring so that no consignment is lost to a warm journey.</p>
+    <a class="btn" href="#track">Get Started: track a shipment</a>
+  </div>
+</section>
+
+<section id="about" class="wrap">
+  <h2>About the business</h2>
+  <div class="grid">
+    <div class="card"><h3>What we do</h3><p>Temperature-controlled transport and storage with a data logger in every consignment.</p></div>
+    <div class="card"><h3>Target customers</h3><p>Hospitals, pharmacies, vaccine distributors, dairy units, restaurants and food retailers.</p></div>
+    <div class="card"><h3>Service area</h3><p>Eastern India: Kolkata hub with daily routes to Jharkhand, Odisha, Bihar and Assam.</p></div>
+    <div class="card"><h3>Our promise</h3><p>If the temperature leaves the safe range, the customer is alerted within minutes, not after delivery.</p></div>
+  </div>
+  <img class="map" src="images/cold-chain.svg" alt="Cold chain diagram: source, cold storage, reefer truck and customer within 2 to 8 degrees Celsius" width="640" height="300">
+  <img class="map" src="images/network-map.svg" alt="Network map: Kolkata hub connected to Durgapur, Ranchi, Patna, Siliguri, Guwahati and Bhubaneswar" width="640" height="470">
+  <p class="note">Compliance: we follow food-safety rules from <a href="https://www.fssai.gov.in" target="_blank" rel="noopener">FSSAI</a> and cold-chain guidance from the <a href="https://nccd.gov.in" target="_blank" rel="noopener">National Centre for Cold-chain Development</a>.</p>
+</section>
+
+<section id="services" class="wrap">
+  <h2>Services and prices</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Service</th><th>Description</th><th>Price</th><th></th></tr></thead>
+    <tbody>
+      <tr><td>Chilled Delivery</td><td>2–8°C same-city delivery, up to 50 kg</td><td>₹350</td><td><a href="#contact">Enquire</a></td></tr>
+      <tr><td>Frozen Delivery</td><td>−18°C same-city delivery, up to 50 kg</td><td>₹550</td><td><a href="#contact">Enquire</a></td></tr>
+      <tr><td>Pharma Secure Pack</td><td>Vaccine-grade box with data logger and seal</td><td>₹900</td><td><a href="#contact">Enquire</a></td></tr>
+      <tr><td>Reefer Truck Hire</td><td>Full refrigerated truck, per intercity trip</td><td>₹18,000</td><td><a href="#contact">Enquire</a></td></tr>
+      <tr><td>Cold Storage</td><td>Pallet storage at the Kolkata hub, per day</td><td>₹40</td><td><a href="#contact">Enquire</a></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="dashboard" class="wrap">
+  <h2>Manager dashboard</h2>
+  <p>What a manager must know right now: are shipments on time, and is anything too warm?</p>
+  <div class="grid kpis">
+    <div class="card"><b>1,250</b>Total orders</div>
+    <div class="card"><b>1,080</b>Delivered</div>
+    <div class="card"><b>120</b>In transit</div>
+    <div class="card alert"><b>14</b>Temperature excursions</div>
+    <div class="card"><b>94.2%</b>On-time delivery</div>
+    <div class="card"><b>18 / 25</b>Reefer trucks available</div>
+  </div>
+  <div class="card chartbox">
+    <h3>Orders per month (Apr–Sep)</h3>
+    <div class="chart" id="chart" role="img" aria-label="Bar chart of monthly orders"></div>
+  </div>
+  <p>See any shipment in detail: <a href="#track">open order tracking</a>.</p>
+</section>
+
+<section id="track" class="wrap">
+  <h2>Track your shipment</h2>
+  <form id="trackForm" class="card">
+    <label for="orderId">Order ID</label>
+    <div class="row"><input id="orderId" placeholder="Try CC1025, CC1026 or CC1027" required><button class="btn" type="submit">Track</button></div>
+    <div id="result" aria-live="polite"></div>
+  </form>
+</section>
+
+<section id="contact" class="wrap">
+  <h2>Contact and enquiry</h2>
+  <div class="grid two">
+    <div class="card">
+      <p><b>Email:</b> <a href="mailto:shreya.sinha_mba25@gsv.ac.in">shreya.sinha_mba25@gsv.ac.in</a></p>
+      <p><b>Phone:</b> <a href="tel:+917667048474">+91 76670 48474</a></p>
+      <p><b>Location:</b> Sector V, Salt Lake, Kolkata. <a href="https://www.google.com/maps/search/?api=1&query=Salt+Lake+Sector+V+Kolkata" target="_blank" rel="noopener">Get directions</a></p>
+      <p><a href="https://www.linkedin.com/in/shreyagsv" target="_blank" rel="noopener">Our LinkedIn profile</a> for partnerships and business contacts.</p>
+      <iframe class="gmap" title="Map of the FrostRoute hub, Salt Lake Sector V, Kolkata" src="https://www.google.com/maps?q=Salt+Lake+Sector+V+Kolkata&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <form id="enquiryForm" class="card">
+      <label for="name">Name</label><input id="name" required>
+      <label for="email">Email</label><input id="email" type="email" required>
+      <label for="svc">Service</label>
+      <select id="svc"><option>Chilled Delivery</option><option>Frozen Delivery</option><option>Pharma Secure Pack</option><option>Reefer Truck Hire</option><option>Cold Storage</option></select>
+      <label for="msg">Message</label><textarea id="msg" rows="3" required></textarea>
+      <button class="btn" type="submit">Send enquiry</button>
+      <p id="formMsg" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+<section id="references" class="wrap">
+  <h2>References</h2>
+  <ol>
+    <li><a href="https://www.who.int/teams/health-product-policy-and-standards/standards-and-specifications/norms-and-standards/vaccine-standardization/extended-controlled-temperature-conditions" target="_blank" rel="noopener">WHO: Extended Controlled Temperature Conditions</a>. Source for the 2–8°C storage range used for vaccines.</li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10550359" target="_blank" rel="noopener">Systematic review of vaccine storage guidelines (PMC)</a>. Supports temperature data loggers and routine monitoring in our service.</li>
+    <li><a href="https://www.technet-21.org/en/resources/journal-article/reviewing-the-importance-of-the-cold-chain-in-the-distribution-of-vaccines" target="_blank" rel="noopener">Reviewing the importance of the cold chain in the distribution of vaccines</a>. Explains why a break in the chain damages cargo.</li>
+    <li><a href="https://www.fssai.gov.in" target="_blank" rel="noopener">FSSAI</a>. Food-safety rules for frozen and chilled food customers.</li>
+    <li><a href="https://nccd.gov.in" target="_blank" rel="noopener">National Centre for Cold-chain Development</a>. Indian cold-chain industry guidance and standards.</li>
+  </ol>
+  <p class="note">Business names, prices, shipment data and dashboard figures are sample data created for this class project.</p>
+</section>
+</main>
+
+<footer><p>© 2026 FrostRoute Cold Chain. Class project for IT in Business and Transportation.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
